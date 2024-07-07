@@ -8,12 +8,13 @@ h1 {
 }
 
 .cards__container {
+  /* background: url("../pic/image.png") center center/cover no-repeat; */
   display: flex;
   flex-flow: column;
   align-items: center;
   max-width: 1420px;
   width: 100%;
-  margin: 0 auto;
+  margin: 50px;
 }
 
 .cards__wrapper {

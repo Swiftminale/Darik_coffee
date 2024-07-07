@@ -2,6 +2,7 @@ import React from "react";
 import "../App.css";
 import { Button } from "./Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faImage } from "@fortawesome/free-solid-svg-icons";
 import "./HeroSection.css";
 
 function HeroSection() {
@@ -24,7 +25,7 @@ function HeroSection() {
           buttonSize="btn--large"
           onClick={console.log("hey")}
         >
-          Gallary <FontAwesomeIcon icon="fa-solid fa-image" />
+          Gallary <FontAwesomeIcon icon="fa-solid faImage" />
         </Button>
       </div>
     </div>

@@ -34,7 +34,7 @@ function NavBar() {
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             {/* <img
               src={logoImage} alt="Darik Coffee Logo" className="logo-image" /> */}
-            <i className="fab fa-typo3" />
+            Darik <i className="fab fa-typo3" />
             <FontAwesomeIcon icon={faCoffee} />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
@@ -57,24 +57,24 @@ function NavBar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/products"
+                to="/Gallery"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Products
+                Gallery
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                to="/sign-up"
+                to="/request"
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
-                Sign Up
+                Request Sample
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">Sign Up</Button>}
+          {button && <Button buttonStyle="btn--outline">Request Sample</Button>}
         </div>
       </nav>
     </>

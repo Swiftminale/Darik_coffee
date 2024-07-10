@@ -6,7 +6,7 @@ import historyImg from "../pic/History.jpg"; // Import the image
 function Cards() {
   return (
     <div className="cards">
-      <h1>Check out our History</h1>
+      {/* <h1>Check out our History</h1> */}
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">

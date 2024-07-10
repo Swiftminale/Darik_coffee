@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import { Button } from "./Button";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faImage } from "@fortawesome/free-solid-svg-icons";
 import "./HeroSection.css";
@@ -25,7 +26,9 @@ function HeroSection() {
           buttonSize="btn--large"
           onClick={console.log("hey")}
         >
-          Gallary <FontAwesomeIcon icon="fa-solid faImage" />
+          <Link to="Gallery" className="Nav-Hero">
+            Gallery
+          </Link>
         </Button>
       </div>
     </div>

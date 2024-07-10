@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faCoffee, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { Button } from "./Button";
-import logoImage from "../pic/image.png";
 import "./Navbar.css";
 
 function NavBar() {
@@ -34,7 +33,7 @@ function NavBar() {
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             {/* <img
               src={logoImage} alt="Darik Coffee Logo" className="logo-image" /> */}
-            Darik <i className="fab fa-typo3" />
+            Darik Coffee
             <FontAwesomeIcon icon={faCoffee} />
           </Link>
           <div className="menu-icon" onClick={handleClick}>

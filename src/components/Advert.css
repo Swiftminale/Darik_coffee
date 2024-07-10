@@ -51,8 +51,9 @@
 }
 
 .description-icon {
-  color: #3b82f6; /* Tailwind's text-blue-500 */
-  margin-right: 0.5rem; /* Tailwind's mr-2 */
+  color: #503b3b; /* Tailwind's text-blue-500 */
+  margin-right: 1.5rem;
+  font-size: 30px;
 }
 
 .description-item h3 {
@@ -61,6 +62,10 @@
 }
 
 .description-item p {
-  font-size: 1rem; /* Example font size */
+  font-size: 1rem;
+  font-family: sans-serif;
+  text-wrap: wrap;
+  max-width: 550px;
+  font-style: italic; /* Example font size */
   /* Additional styling as needed */
 }

@@ -11,16 +11,19 @@ function Advert() {
         "Discover the highest quality coffee, sourced from the finest beans and crafted to perfection. Each cup promises an unparalleled taste experience that true coffee connoisseurs will love.",
     },
     {
-      title: "Second description",
-      description: "Second description content.",
+      title: "Perfectly Roasted for Rich Flavor",
+      description:
+        "Our coffee is roasted to perfection, bringing out the rich, deep flavors in every bean. Enjoy a robust, aromatic brew that will invigorate your senses and elevate your coffee experience..",
     },
     {
-      title: "Third description",
-      description: "Third description content.",
+      title: "Beautifully Packaged, Elegantly Presented",
+      description:
+        "Our coffee is not only delicious but also beautifully packaged. Each package is a work of art, designed to preserve the freshness and flavor while adding a touch of elegance to your coffee routine.",
     },
     {
-      title: "Fourth description",
-      description: "Fourth description content.",
+      title: "Sustainably Sourced, Ethically Produced",
+      description:
+        "We are committed to sustainability and ethical practices. Our coffee is sourced from environmentally conscious farms, ensuring that every cup you enjoy supports both quality and sustainability.",
     },
   ];
 

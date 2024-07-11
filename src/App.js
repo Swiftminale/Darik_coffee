@@ -5,10 +5,12 @@ import Home from "./components/pages/Home";
 import Services from "./components/pages/Services";
 import Gallery from "./components/pages/Gallery";
 import Request from "./components/pages/Request";
+import { Toaster } from "react-hot-toast";
 
 function App() {
   return (
     <>
+      <Toaster position="top-right" reverseOrder={false} />
       <Router>
         <NavBar />
         <Routes>

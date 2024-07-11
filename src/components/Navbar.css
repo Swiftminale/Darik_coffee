@@ -1,3 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+* {
+  font-family: "Merriweather", sans-serif;
+}
 .navbar {
   background: linear-gradient(90deg, rgb(70, 51, 51) 0%, rgb(102, 71, 71) 100%);
   height: 60px;

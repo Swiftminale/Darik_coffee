@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 import "./RequestForm.css";
+import toast from "react-hot-toast";
 function Requestform() {
   const form = useRef();
 
@@ -19,9 +20,16 @@ function Requestform() {
         (result) => {
           console.log(result.text);
           console.log("message sent");
+
+          toast.success("Your Request has Been Sent!");
+
+          form.current.reset();
         },
         (error) => {
           console.log(error.text);
+          console.log("message not sent");
+
+          toast.error("An able to send your Request"); //handles errors
         }
       );
   };

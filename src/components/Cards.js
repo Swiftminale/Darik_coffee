@@ -7,7 +7,7 @@ function Cards() {
   return (
     <div className="cards">
       {/* <h1>Check out our History</h1> */}
-      <div className="cards__container">
+      {/* <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
@@ -44,6 +44,9 @@ function Cards() {
             />
           </ul>
         </div>
+      </div> */}
+      <div>
+        <h1>G</h1>
       </div>
     </div>
   );

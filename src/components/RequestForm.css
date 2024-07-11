@@ -52,10 +52,6 @@ textarea {
   resize: none;
 }
 
-.message {
-  width: auto;
-}
-
 #input-submit {
   color: white;
   background: #4d3735;

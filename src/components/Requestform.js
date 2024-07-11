@@ -37,6 +37,19 @@ function Requestform() {
 
   return (
     <>
+      <div className="req_right">
+        <div style={{ color: "green", fontStyle: "normal", fontSize: "15px" }}>
+          Premium Coffee You Deserve
+        </div>
+        <h5>Quality Beyond Your Expectation</h5>
+        <p>
+          Darik coffee for the past decade, Testi Specialty coffee established a
+          purpose, that’s been and will forever be providing our partners which
+          we consider part of the Testi family with the finest quality coffee
+          the world has to offer.
+        </p>
+        <p>______________________________________________</p>
+      </div>
       <div className="form_container">
         <form className="cf" ref={form} onSubmit={sendEmail}>
           <h1>Request Sample</h1>

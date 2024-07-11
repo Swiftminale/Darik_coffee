@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather);
 .form_container {
+  display: flex;
+  float: inline-end;
   background-color: transparent;
   border: 5px solid;
   border-radius: 10px;

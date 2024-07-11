@@ -1,11 +1,10 @@
-/* @import url(https://fonts.googleapis.com/css?family=Merriweather);
-html,
-body {
-  background: #f1f1f1;
-  font-family: "Merriweather", sans-serif;
-  padding: 1em;
-} */
-
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+.form_container {
+  background-color: transparent;
+  border: 5px solid;
+  border-radius: 10px;
+  padding: 25px;
+}
 h1 {
   text-align: center;
   color: #a8a8a8;
@@ -19,7 +18,7 @@ form {
 
 input,
 textarea {
-  border: 0;
+  border: 2px solid #4d3735;
   outline: 0;
   padding: 1em;
   border-radius: 8px;
@@ -31,8 +30,8 @@ textarea {
 }
 
 #input-submit {
-  color: white;
-  background: #e74c3c;
+  color: rgb(255, 255, 255);
+  background: #4d3735;
   cursor: pointer;
 }
 

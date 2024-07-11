@@ -27,19 +27,24 @@ function Requestform() {
   };
 
   return (
-    <div>
-      <h1>Contact Form</h1>
-      <form className="cf" ref={form} onSubmit={sendEmail}>
-        <div className="half left cf">
-          <input type="text" placeholder="Name" name="user_name" />
-          <input type="email" placeholder="Email address" name="user_email" />
-        </div>
-        <div className="half right cf">
-          <textarea name="message" type="text" placeholder="Message"></textarea>
-        </div>
-        <input type="submit" value="Submit" id="input-submit" />
-      </form>
-    </div>
+    <>
+      <div className="form_container">
+        <form className="cf" ref={form} onSubmit={sendEmail}>
+          <div className="half left cf">
+            <input type="text" placeholder="Name" name="user_name" />
+            <input type="email" placeholder="Email address" name="user_email" />
+          </div>
+          <div className="half right cf">
+            <textarea
+              name="message"
+              type="text"
+              placeholder="Message"
+            ></textarea>
+          </div>
+          <input type="submit" value="Request" id="input-submit" />
+        </form>
+      </div>
+    </>
   );
 }
 

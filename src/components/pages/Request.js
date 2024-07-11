@@ -5,8 +5,9 @@ import Requestform from "../Requestform";
 export default function Request() {
   return (
     <>
-      <h1 className="request">REQUEST SAMPLE</h1>
-      <Requestform />
+      <div className="request">
+        <Requestform />
+      </div>
     </>
   );
 }

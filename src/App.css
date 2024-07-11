@@ -8,7 +8,7 @@
 .home,
 .services,
 .Gallerys,
-.requests {
+.request {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -28,7 +28,7 @@
 }
 
 .Gallery {
-  background-image: url("../public/images/img-1.jpg");
+  /* background-image: url("../public/images/img-1.jpg"); */
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -37,10 +37,10 @@
 }
 
 .request {
-  background-image: url("../public/images/coffee.jpg");
+  background-image: url("./pic/image.png");
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  color: #fff;
+  color: #4d3735;
   font-size: 75px;
 }

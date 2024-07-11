@@ -7,14 +7,16 @@
 
 .home,
 .services,
-.Gallery,
-.request {
+.Gallerys,
+.requests {
   display: flex;
   height: 90vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
 }
+
+/* remove the above */
 
 .services {
   background-image: url("../public/images/img-2.jpg");

@@ -1,6 +1,7 @@
 import React from "react";
 import "../../App.css";
 import Requestform from "../Requestform";
+import Footer from "../Footer";
 
 export default function Request() {
   return (
@@ -8,6 +9,7 @@ export default function Request() {
       <div className="request">
         <Requestform />
       </div>
+      <Footer />
     </>
   );
 }

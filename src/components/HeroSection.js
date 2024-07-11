@@ -2,15 +2,13 @@ import React from "react";
 import "../App.css";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faImage } from "@fortawesome/free-solid-svg-icons";
 import "./HeroSection.css";
 
 function HeroSection() {
   return (
     <div className="hero-container">
       <video src="/videos/video-03.mp4" autoPlay loop muted />
-      <h1>Darik Coffee Shop</h1>
+      <h1>ዳሪክ ቡና</h1>
       <p>What are you waiting for?</p>
       <div className="hero-btns">
         <Button

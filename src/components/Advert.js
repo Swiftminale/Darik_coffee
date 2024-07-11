@@ -1,6 +1,6 @@
 import React from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import "./Advert.css";
+// import "./Advert.css";
 import advertImage from "../pic/image.jpg"; // Adjust the import based on the correct path
 
 function Advert() {

@@ -1,7 +1,5 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
 import "./RequestForm.css";
 import toast from "react-hot-toast";
 function Requestform() {

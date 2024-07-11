@@ -1,15 +1,34 @@
-@import url(https://fonts.googleapis.com/css?family=Merriweather);
 .form_container {
-  display: flex;
-  float: inline-end;
-  background-color: transparent;
-  border: 5px solid;
+  background-color: rgb(199, 203, 207);
+  border: 1px solid #fff;
   border-radius: 10px;
   padding: 25px;
+  margin-right: 60px;
 }
-h1 {
-  text-align: center;
-  color: #a8a8a8;
+.form_container h1 {
+  font-size: 20px;
+}
+.req_right {
+  align-items: center;
+  padding: auto;
+  margin: 20px;
+  width: 50%;
+}
+.req_right p {
+  padding: 5px;
+  margin-top: 20px;
+  color: #ffffff;
+  line-height: 1.8;
+  font-family: sans-serif;
+  font-style: oblique;
+  font-size: 15px;
+  width: 88.88%;
+}
+.req_right h5 {
+  text-align: left;
+  color: transparent;
+  -webkit-text-stroke: 2px rgb(255, 255, 255);
+  font-size: 75px;
 }
 
 form {
@@ -20,25 +39,33 @@ form {
 
 input,
 textarea {
-  border: 2px solid #4d3735;
+  border: 1px solid #ebe1e0;
+  border-radius: 8px;
   outline: 0;
   padding: 1em;
-  border-radius: 8px;
+  background-color: #ffffff;
   display: block;
   width: 100%;
   margin-top: 1em;
-  font-family: "Merriweather", sans-serif;
+  font-family: sans-serif;
   resize: none;
 }
 
+.message {
+  width: auto;
+}
+
 #input-submit {
-  color: rgb(255, 255, 255);
+  color: white;
   background: #4d3735;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 #input-submit:hover {
-  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  color: #4d3735;
+  border: 1px solid #4d3735;
 }
 
 textarea {

@@ -38,7 +38,9 @@ function Requestform() {
   return (
     <>
       <div className="req_right">
-        <div style={{ color: "green", fontStyle: "normal", fontSize: "15px" }}>
+        <div
+          style={{ color: "#DAA520", fontStyle: "normal", fontSize: "15px" }}
+        >
           Premium Coffee You Deserve
         </div>
         <h5>Quality Beyond Your Expectation</h5>

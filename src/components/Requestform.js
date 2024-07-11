@@ -57,10 +57,10 @@ function Requestform() {
           <h1>Request Sample</h1>
           <div className="half left cf">
             <input type="text" placeholder="Full Name" name="user_name" />
-            <input type="text" placeholder="Phone" name="user_name" />
+            <input type="text" placeholder="Phone" name="user_phone" />
           </div>
           <div className="half right cf">
-            <input type="text" placeholder="Company Name" name="user_name" />
+            <input type="text" placeholder="Company Name" name="company_name" />
             <input type="email" placeholder="Email address" name="user_email" />
           </div>
           <textarea name="message" type="text" placeholder="Message"></textarea>

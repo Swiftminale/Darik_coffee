@@ -1,7 +1,7 @@
 import React from "react";
-import CardItem from "./CardItem";
+// import CardItem from "./CardItem";
 import "./Cards.css";
-import historyImg from "../pic/History.jpg"; // Import the image
+// import historyImg from "../pic/History.jpg"; // Import the image
 
 function Cards() {
   return (

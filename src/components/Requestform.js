@@ -7,22 +7,25 @@ function Requestform() {
 
   const sendEmail = (e) => {
     e.preventDefault();
+
     emailjs
       .sendForm(
-        process.env.REACT_APP_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
+        "service_t97fc2f",
+        "React_Emailijs",
         form.current,
-        process.env.REACT_APP_USER_ID
+        "ZOeIJ9UaTGobMclQz"
       )
       .then(
         (result) => {
           console.log(result.text);
+          console.log("message sent");
         },
         (error) => {
           console.log(error.text);
         }
       );
   };
+
   return (
     <div>
       <h1>Contact Form</h1>

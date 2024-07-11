@@ -37,10 +37,9 @@
 }
 
 .request {
-  background-image: url("./pic/image.png");
+  background-image: url("./pic/bc-img.webp");
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  color: #4d3735;
-  font-size: 75px;
+  color: #fff;
 }

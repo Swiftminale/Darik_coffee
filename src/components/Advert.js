@@ -1,7 +1,7 @@
 import React from "react";
-// import "@fortawesome/fontawesome-free/css/all.min.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./Advert.css";
-// import advertImage from "../pic/image.jpg";
+import advertImage from "../pic/image.jpg";
 
 function Advert() {
   const descriptions = [
@@ -31,9 +31,9 @@ function Advert() {
     <div className="container">
       <div className="advert-container">
         <div className="image-container">
-          {/* <img src={advertImage} alt="Advert" className="advert-image" /> */}
+          <img src={advertImage} alt="Advert" className="advert-image" />
         </div>
-        <div className="descriptions-container">
+        {/* <div className="descriptions-container">
           {descriptions.map((item, index) => (
             <div key={index} className="description-item">
               <i className="fas fa-coffee description-icon"></i>
@@ -43,6 +43,10 @@ function Advert() {
               </div>
             </div>
           ))}
+        </div> */}
+        <div>
+          <h3>{descriptions[0].title}</h3>
+          <p>{descriptions[0].description}</p>
         </div>
       </div>
     </div>

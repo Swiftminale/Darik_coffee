@@ -37,7 +37,12 @@ function Requestform() {
     <>
       <div className="req_right">
         <div
-          style={{ color: "#DAA520", fontStyle: "normal", fontSize: "15px" }}
+          style={{
+            color: "#996515",
+            fontStyle: "normal",
+            fontSize: "15px",
+            padding: "5px",
+          }}
         >
           Premium Coffee You Deserve
         </div>

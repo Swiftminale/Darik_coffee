@@ -48,7 +48,7 @@ function Requestform() {
           we consider part of the Testi family with the finest quality coffee
           the world has to offer.
         </p>
-        <p>______________________________________________</p>
+        <br />
       </div>
       <div className="form_container">
         <form className="cf" ref={form} onSubmit={sendEmail}>

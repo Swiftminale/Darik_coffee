@@ -1,6 +1,7 @@
 .form_container {
-  background-color: rgb(199, 203, 207);
+  /* background-color: rgb(199, 203, 207); */
   border: 1px solid #fff;
+  backdrop-filter: blur(8px);
   border-radius: 10px;
   padding: 25px;
   margin-right: 60px;
@@ -11,9 +12,11 @@
 }
 .req_right {
   align-items: center;
-  padding: auto;
+  padding: 10px;
   margin: 20px;
   width: 50%;
+  backdrop-filter: blur(5px);
+  margin: 10px;
 }
 .req_right p {
   padding: 5px;
@@ -29,7 +32,7 @@
   text-align: left;
   color: transparent;
   -webkit-text-stroke: 2px rgb(255, 255, 255);
-  font-size: 75px;
+  font-size: 55px;
 }
 
 form {

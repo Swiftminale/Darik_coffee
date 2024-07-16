@@ -34,14 +34,13 @@
 
 .description-item {
   display: flex;
-  flex-direction: column; /* Display items as column on smaller screens */
-  align-items: center;
+  align-items: center; /* Center align items vertically */
   margin-bottom: 1.5rem; /* Increased margin for spacing between items */
 }
 
 .description-icon {
   color: #503b3b; /* Dark red color for the icon */
-  margin-bottom: 1rem; /* Margin below the icon */
+  margin-right: 1rem; /* Margin to separate icon from text */
   font-size: 1.5rem; /* Font size for the icon */
 }
 

@@ -13,7 +13,7 @@ function Advert() {
     {
       title: "Perfectly Roasted for Rich Flavor",
       description:
-        "Our coffee is roasted to perfection, bringing out the rich, deep flavors in every bean. Enjoy a robust, aromatic brew that will invigorate your senses and elevate your coffee experience..",
+        "Our coffee is roasted to perfection, bringing out the rich, deep flavors in every bean. Enjoy a robust, aromatic brew that will invigorate your senses and elevate your coffee experience.",
     },
     {
       title: "Beautifully Packaged, Elegantly Presented",

@@ -12,22 +12,21 @@ function HeroSection() {
       <p>What are you waiting for?</p>
       <div className="hero-btns">
         <Button
-          className="btns"
+          className="btns btn--outline btn--large"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
         >
           Request Sample
         </Button>
-        <Button
-          className="btns"
-          buttonStyle="btn--primary"
-          buttonSize="btn--large"
-          onClick={console.log("hey")}
-        >
-          <Link to="Gallery" className="Nav-Hero">
+        <Link to="Gallery" className="Nav-Hero">
+          <Button
+            className="btns btn--primary btn--large"
+            buttonStyle="btn--primary"
+            buttonSize="btn--large"
+          >
             Gallery
-          </Link>
-        </Button>
+          </Button>
+        </Link>
       </div>
     </div>
   );

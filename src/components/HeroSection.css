@@ -1,84 +1,82 @@
-video {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  z-index: -1;
-}
-
 .hero-container {
-  /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
   height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-  object-fit: contain;
-  color: transparent;
+  position: relative;
+  overflow: hidden;
 }
 
-.Nav-Hero {
-  color: #4d3535;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
+.hero-container video {
+  object-fit: cover;
+  width: 100%;
   height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .hero-container > h1 {
-  color: transparent;
-  -webkit-text-stroke: 2px rgb(255, 255, 255);
-  font-size: 100px;
+  color: #fff;
+  font-size: 3rem;
   margin-top: -100px;
+  text-align: center;
 }
 
 .hero-container > p {
   margin-top: 8px;
   color: #fff;
-  font-size: 32px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .hero-btns {
   margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.hero-btns .btn {
-  margin: 6px;
-  border-radius: 15px;
-}
-
-.fa-play-circle {
-  margin-left: 4px;
+.Nav-Hero {
+  text-decoration: none;
 }
 
 @media screen and (max-width: 960px) {
   .hero-container > h1 {
-    font-size: 70px;
+    font-size: 2.5rem;
     margin-top: -150px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .hero-container > h1 {
-    font-size: 50px;
+    font-size: 2rem;
     margin-top: -100px;
   }
 
   .hero-container > p {
-    font-size: 30px;
+    font-size: 1.2rem;
   }
 
-  .btn-mobile {
-    display: block;
-    text-decoration: none;
+  .hero-btns {
+    flex-direction: column;
   }
 
-  .btn {
-    width: 100%;
+  .btns {
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero-container > h1 {
+    font-size: 1.5rem;
+    margin-top: -80px;
+  }
+
+  .hero-container > p {
+    font-size: 1rem;
   }
 }

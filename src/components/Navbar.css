@@ -94,9 +94,9 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 90vh;
+    height: 85vh;
     position: absolute;
-    top: 80px;
+    top: 58px;
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;

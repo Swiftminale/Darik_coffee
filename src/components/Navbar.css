@@ -8,7 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 0.75rem;
   position: sticky;
   top: 0;
   z-index: 999;
@@ -41,7 +41,7 @@
 
 .fa-typo3 {
   margin-left: 0.5rem;
-  font-size: 1.8rem;
+  font-size: 1rem;
 }
 
 .nav-menu {

@@ -5,7 +5,9 @@ import Cards from "../Cards";
 export default function Gallery() {
   return (
     <>
-      <Cards />
+      <div className="Gallery">
+        <Cards />
+      </div>
     </>
   );
 }

@@ -19,27 +19,28 @@
 /* remove the above */
 
 .services {
-  background-image: url("../public/images/img-2.jpg");
+  background-image: url("./pic/2.jpg");
   background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
+  background-size: fill;
+  background-repeat: repeat;
+  color: #000000;
   font-size: 75px;
 }
 
 .Gallery {
-  background: url("/public/pic/Coffee.jpeg");
+  background-image: url("./pic/2.jpg");
   background-position: center;
   background-size: fill;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
+  background-attachment: fixed;
   color: #fff;
   font-size: 75px;
 }
 
 .request {
-  background-image: url("./pic/coffe-Memories-6.jpg");
+  background-image: url("./pic/2.jpg");
   background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: fill;
+  background-repeat: repeat;
   color: #fff;
 }

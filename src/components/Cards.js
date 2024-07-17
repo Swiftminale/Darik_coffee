@@ -51,7 +51,11 @@ function Cards() {
         </div>
 
         {selectedImageIndex !== null && (
-          <div className="modal" onClick={handleCloseModal}>
+          <div
+            className="modal"
+            onClick={handleCloseModal}
+            style={{ display: "block" }}
+          >
             <span className="close" onClick={handleCloseModal}>
               &times;
             </span>

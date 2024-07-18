@@ -47,7 +47,7 @@ textarea {
   border-radius: 8px;
   outline: 0;
   padding: 1em;
-  background-color: #ffffff;
+  background-color: #d3d3d3;
   display: block;
   width: 100%;
   margin-top: 1em;
@@ -57,7 +57,7 @@ textarea {
 
 #input-submit {
   color: white;
-  background: #4d3735;
+  background: #000000;
   cursor: pointer;
   border-radius: 10px;
 }

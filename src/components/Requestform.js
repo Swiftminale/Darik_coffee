@@ -34,7 +34,7 @@ function Requestform() {
   };
 
   return (
-    <>
+    <div className="request-form-container">
       <div className="req_right">
         <div
           style={{
@@ -70,7 +70,7 @@ function Requestform() {
           <input type="submit" value="Request" id="input-submit" />
         </form>
       </div>
-    </>
+    </div>
   );
 }
 

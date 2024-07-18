@@ -1,23 +1,30 @@
+.request-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box; /* Ensure padding is included in width/height */
+}
+
 .form_container {
-  /* background-color: rgb(199, 203, 207); */
-  border: 1px solid #fff;
-  backdrop-filter: blur(8px);
+  width: 100%;
+  max-width: 600px;
   border-radius: 10px;
   padding: 25px;
-  margin-right: 60px;
-  width: 35%;
+  margin: 20px;
+  backdrop-filter: blur(8px);
+  box-sizing: border-box; /* Ensure padding is included in width/height */
 }
-.form_container h1 {
-  font-size: 20px;
-}
+
 .req_right {
   align-items: center;
   padding: 10px;
   margin: 20px;
-  width: 50%;
+  width: 100%; /* Make sure this adjusts in responsive mode */
   backdrop-filter: blur(5px);
-  margin: 10px;
+  box-sizing: border-box; /* Ensure padding is included in width/height */
 }
+
 .req_right p {
   padding: 5px;
   margin-top: 20px;
@@ -26,8 +33,9 @@
   font-family: sans-serif;
   font-style: oblique;
   font-size: 15px;
-  width: 88.88%;
+  width: 100%; /* Ensure text doesn't overflow */
 }
+
 .req_right h5 {
   text-align: left;
   color: transparent;
@@ -39,6 +47,7 @@ form {
   max-width: 600px;
   text-align: center;
   margin: 20px auto;
+  box-sizing: border-box; /* Ensure padding is included in width/height */
 }
 
 input,
@@ -102,4 +111,36 @@ textarea {
 
 .cf:after {
   clear: both;
+}
+
+@media (min-width: 768px) {
+  .request-form-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .req_right,
+  .form_container {
+    width: 45%;
+  }
+
+  .half {
+    width: 48%;
+    float: left;
+  }
+
+  .left {
+    margin-right: 2%;
+  }
+}
+
+@media (max-width: 768px) {
+  .req_right,
+  .form_container {
+    width: 100%;
+  }
+
+  .request-form-container {
+    flex-direction: column;
+  }
 }

@@ -6,6 +6,7 @@ import Services from "./components/pages/Services";
 import Gallery from "./components/pages/Gallery";
 import Request from "./components/pages/Request";
 import { Toaster } from "react-hot-toast";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/gallery" exact Component={Gallery} />
           <Route path="/request" exact Component={Request} />
         </Routes>
+        <Footer />
       </Router>
     </>
   );

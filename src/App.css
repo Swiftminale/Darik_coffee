@@ -8,7 +8,7 @@
 .home,
 .services,
 .Gallery,
-.request {
+.requests {
   display: flex;
   height: 90vh;
   align-items: center;

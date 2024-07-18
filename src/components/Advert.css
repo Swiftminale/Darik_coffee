@@ -2,17 +2,41 @@
   display: flex;
   justify-content: center;
   margin-top: 2rem; /* Added margin for spacing */
+  background-image: url("../pic/2.jpg");
+  background-size: fill;
+  background-position: center;
 }
 
 .advert-container {
   display: flex;
   flex-direction: column; /* Display as column on smaller screens */
   align-items: center;
-  background-color: #f7fafc; /* Light gray background */
+  position: relative; /* Needed for the pseudo-element */
   padding: 1.5rem; /* Padding around the container */
   border-radius: 0.5rem; /* Rounded corners */
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
     0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Shadow effect */
+  overflow: hidden; /* To contain the pseudo-element */
+}
+
+.advert-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../pic/2.jpg");
+  background-size: fill;
+  background-position: center;
+  opacity: 0.6; /* Adjust the opacity here */
+  z-index: 1; /* Ensure the overlay is above the background but below the content */
+}
+
+.image-container,
+.descriptions-container {
+  position: relative; /* Needed to keep the content above the overlay */
+  z-index: 2;
 }
 
 .image-container {
@@ -29,7 +53,8 @@
 .descriptions-container {
   width: 100%; /* Full width for descriptions on smaller screens */
   padding: 1.5rem; /* Padding around descriptions */
-  text-align: center; /* Center align text on smaller screens */
+  text-align: center;
+  backdrop-filter: blur(5px); /* Center align text on smaller screens */
 }
 
 .description-item {
@@ -53,7 +78,7 @@
   font-size: 1rem; /* Font size for the description */
   line-height: 1.6; /* Line height for better readability */
   font-family: Arial, sans-serif; /* Font family for the description */
-  color: #555; /* Darker color for the description text */
+  color: #030000; /* Darker color for the description text */
 }
 
 @media screen and (min-width: 768px) {

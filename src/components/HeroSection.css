@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Ethiopic:wght@100..900&display=swap");
 .hero-container {
   height: 100vh;
   width: 100%;
@@ -22,12 +23,15 @@
 .hero-container > h1 {
   color: #fff;
   font-size: 8rem;
+  font-weight: 175;
   margin-top: 10px;
   text-align: center;
 }
 
 .hero-container > h4 {
   color: #fff;
+  font-family: "Noto Sans Ethiopic";
+  font-weight: 179;
   font-size: 3rem;
   margin-top: 5px;
   margin-bottom: 5px;

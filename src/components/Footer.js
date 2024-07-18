@@ -54,7 +54,7 @@ function Footer() {
               target="_blank"
               aria-label="LinkedIn"
             >
-              <i className="fab fa-linkedin" />
+              <i class="fa-brands fa-tiktok"></i>
             </Link>
           </div>
         </div>

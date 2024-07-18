@@ -33,7 +33,7 @@ function NavBar() {
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             {/* <img
               src={logoImage} alt="Darik Coffee Logo" className="logo-image" /> */}
-            ዳሪክ ቡና
+            <div style={{ fontFamily: "Noto Sans Ethiopic" }}>ዳሪክ ቡና</div>
             {/* <FontAwesomeIcon icon={faCoffee} /> */}
           </Link>
           <div className="menu-icon" onClick={handleClick}>

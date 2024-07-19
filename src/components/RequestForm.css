@@ -12,17 +12,20 @@
   border-radius: 10px;
   padding: 25px;
   margin: 20px;
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(2.5px);
   box-sizing: border-box; /* Ensure padding is included in width/height */
+  box-shadow: 10px 10px 100px rgba(92, 56, 27, 0.836); /* Add shadow to the req_right*/
 }
 
 .req_right {
   align-items: center;
   padding: 10px;
+  border-radius: 10px;
   margin: 20px;
   width: 100%; /* Make sure this adjusts in responsive mode */
   backdrop-filter: blur(5px);
   box-sizing: border-box; /* Ensure padding is included in width/height */
+  box-shadow: 10px 10px 100px rgba(92, 56, 27, 0.836);
 }
 
 .req_right p {

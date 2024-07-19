@@ -7,6 +7,7 @@ import Gallery from "./components/pages/Gallery";
 import Request from "./components/pages/Request";
 import { Toaster } from "react-hot-toast";
 import Footer from "./components/Footer";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (

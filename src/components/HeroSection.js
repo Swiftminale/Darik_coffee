@@ -19,7 +19,7 @@ function HeroSection() {
       <h1>
         Darik <br /> Coffee <br />
       </h1>
-      <h4>| ዳሪክ ቡና |</h4>
+      <h4 className="darik">| ዳሪክ ቡና |</h4>
       <p>What are you waiting for?</p>
       <div className="hero-btns">
         <Button
